@@ -1,4 +1,6 @@
 function playAudio(keyCode) {
+    console.log(keyCode);
+    
     const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
     const button = document.querySelector(`button[data-key="${keyCode}"]`);
     
