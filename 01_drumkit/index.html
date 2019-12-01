@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS Drumkit</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
 </head>
 <body>
     <div class="min-h-screen mx-auto flex flex-col items-center justify-center">
@@ -13,33 +14,33 @@
         <h2>your fingers favourite keyboard drumkit.</h2>
         <div class="w-full max-w-lg">
             <div class="flex h-32">
-                <button data-key="65" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="65" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">a</div>
                 </button>
-                <button data-key="83" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="83" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">s</div>
                 </button>
-                <button data-key="68" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="68" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">d</div>
                 </button>
-                <button data-key="70" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="70" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">f</div>
                 </button>
-                <button data-key="74" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="74" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">j</div>
                 </button>
-                <button data-key="75" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="75" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">k</div>
                 </button>
-                <button data-key="76" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="76" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">l</div>
                 </button>
-                <button data-key="192" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="192" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">ö</div>
                 </button>
             </div>
             <div class="h-12 flex">
-                <button data-key="32" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase">
+                <button data-key="32" onclick="playAudio(this.dataset.key)" class="flex-grow border uppercase transition">
                     <div class="uppercase">space</div>
                 </button>
             </div>
