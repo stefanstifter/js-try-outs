@@ -14,6 +14,5 @@ function removeTransition(e) {
 window.addEventListener('keydown', (e) => playAudio(e.keyCode));
 Array.from(document.querySelectorAll('.transition'))
     .forEach(key => {
-        key.addEventListener('click', (e) => playAudio(e.target.dataset.key));
         key.addEventListener('transitionend', removeTransition);
     });

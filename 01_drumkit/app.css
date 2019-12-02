@@ -1,8 +1,22 @@
+.bg-img {
+    background: url('https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center; 
+    background-size: cover;
+}
+.bg-opacity-dark {
+    background-color: rgba(26, 33, 45, 0.8705882352941177);
+    background-color: #1a202cde;
+}
+.font-indie {
+    font-family: 'Indie Flower', sans-serif;
+}
 .playing {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
     border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    -webkit-box-shadow: 0 0 1rem #ffc600;
+            box-shadow: 0 0 1rem #ffc600;
 }
 .transition {
+    -webkit-transition: all .07s ease;
     transition: all .07s ease;
 }
